@@ -47,7 +47,7 @@ def create_session():
     neoip = "0"
     neoip = raw_input('Enter IP of neo4j DB or press [ENTER] for localhost: ')
     if neoip == '':
-        print "Using 'localhost' "
+        print ("Using 'localhost' ")
         neoip = 'localhost'
     neoun = "0"
     neoun = raw_input('Enter neo4j DB username or press [ENTER] for neo4j: ')
